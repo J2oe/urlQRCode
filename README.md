@@ -1,2 +1,0 @@
-# urlQRCode
-firefox extension
