@@ -9,7 +9,8 @@ function generateQR(tab) {
 }
 
 browser.tabs.query({
-  active: true
+  active: true,
+  currentWindow: true
 }).then( (tabs) => {
   generateQR(tabs[0])
 })
